@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VBNshop | fashion shop</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  </head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
+      </div>
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html">VBNshop</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Home</a>
+                <ul class="dropdown-menu">
+                  <li><a href="content_box.html">Introduce</a></li>
+                  <li><a href="index_myteam.html">Teams</a></li>
+                  <li><a href="index_photography.html">Photography</a></li>
+                  <li><a href="gallery_col_2.html">Gallery</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="index_shop.html" data-toggle="dropdown">Sản phẩm</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Đồ nam</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Áo</a></li>
+                      <li><a href="#">Quần</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Đồ nữ</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Váy</a></li>
+                      <li><a href="#">Đầm</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Đồ đôi</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Áo đôi</a></li>
+                      <li><a href="#">Bộ</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Phụ kiện</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Túi xách</a></li>
+                      <li><a href="#">Balo</a></li>
+                      <li><a href="#">Mũ</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Giày</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Giày Sneaker</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Nike</a></li>
+                      <li><a href="#">Adidas</a></li>
+                      <li><a href="#">Vans</a></li>
+                      <li><a href="#">Balenciaga</a></li>
+                      <li><a href="#">Converse</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Giày cao gót</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">5cm</a></li>
+                      <li><a href="#">7cm</a></li>
+                      <li><a href="#">10cm</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Giày trẻ em</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">1-3 tuổi</a></li>
+                      <li><a href="#">3-6 tuổi</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">SALE</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">10%</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">25%</a></li>
+                  <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">50%</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Shop</a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="login_register.html">Đăng nhập</a></li>
+                  <li><a href="contact2.html">Liện hệ</a></li>
+                  <li><a href="shop_checkout.html">Checkout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home-section home-full-height bg-dark-30" id="home" data-background="assets/images/bg_aboutme.jpg">
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=bNucJgetMjE', containment:'.home-section', startAt:18, mute:false, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-controls-box">
+          <div class="container">
+            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+          </div>
+        </div>
+        <div class="titan-caption">
+          <div class="caption-content">
+            <div class="font-alt mb-30 titan-title-size-1">Hello &amp; welcome</div>
+            <div class="font-alt mb-40 titan-title-size-4">We are VBNshop</div>
+            <a class="section-scroll btn btn-border-w btn-round" href="#alt-features">Tìm hiểu thêm</a>
+          </div>
+        </div>
+      </section>
+      <div class="main">
+        <section class="module" id="alt-features">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Các tính năng của chúng tôi</h2>
+                <div class="module-subtitle font-serif">Một sự thanh thản tuyệt vời đã chiếm hữu toàn bộ tâm hồn tôi, như những buổi sáng mùa xuân ngọt ngào mà tôi tận hưởng bằng cả trái tim mình.</div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-strategy"></span></div>
+                  <h3 class="alt-features-title font-alt">Xây dựng thương hiệu</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-tools-2"></span></div>
+                  <h3 class="alt-features-title font-alt">Phát triển</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-mobile">></span></div>
+                  <h3 class="alt-features-title font-alt">Thời trang</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-tools"></span></div>
+                  <h3 class="alt-features-title font-alt">Design</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                <div class="alt-services-image align-center"><img src="assets/images/about_me.jpg" alt="Feature Image"></div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-camera"></span></div>
+                  <h3 class="alt-features-title font-alt">Nhiếp ảnh</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-target"></span></span></div>
+                  <h3 class="alt-features-title font-alt">Tiếp thị</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-linegraph"></span></div>
+                  <h3 class="alt-features-title font-alt">Âm nhạc</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="icon-basket"></span></div>
+                  <h3 class="alt-features-title font-alt">Shop</h3>A wonderful serenity has taken possession of my entire soul like these sweet mornings.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module bg-dark-60" data-background="assets/images/section-6.jpg">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="video-box">
+                  <div class="video-box-icon"><a class="video-pop-up" href="https://www.youtube.com/watch?v=sNlWakWKWb4"><span class="icon-video"></span></a></div>
+                  <div class="video-title font-alt">VBNshop</div>
+                  <div class="video-subtitle font-alt">Xem video về sản phẩm chúng tôi</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       <!--Giới thiệu qua sản phẩm-->
+       <section class="module pb-0" id="works">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+              <h2 class="module-title font-alt">Our Works</h2>
+              <div class="module-subtitle font-serif"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="filter font-alt" id="filters">
+                <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".illustration" data-wow-delay="0.2s">Fashion</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".marketing" data-wow-delay="0.4s">Marketing</a></li>
+                <li><a class="wow fadeInUp" href="#" data-filter=".photography" data-wow-delay="0.6s">Photo</a></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-d" id="works-grid">
+            <li class="work-item illustration webdesign"><a href="#">
+                <div class="work-image"><img src="assets/images/post-1.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Women's Fashion Martin Boots</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+            <li class="work-item marketing photography"><a href="#">
+                <div class="work-image"><img src="assets/images/post-2.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Callista top and Melba trousers</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+            <li class="work-item illustration photography"><a href="portfolio_single_featured_slider1.html">
+                <div class="work-image"><img src="assets/images/post-3.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Fashion Orange</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+            <li class="work-item marketing photography"><a href="portfolio_single_featured_slider2.htmll">
+                <div class="work-image"><img src="assets/images/post-4.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Leopard pants</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+            <li class="work-item illustration webdesign"><a href="portfolio_single_featured_video1.html">
+                <div class="work-image"><img src="assets/images//post-5.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Hiphop Fashion</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+            <li class="work-item marketing webdesign"><a href="portfolio_single_featured_video2.html">
+                <div class="work-image"><img src="assets/images//post-6.jpg" alt="product image"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Apostolic Fashion</h3>
+                  <div class="work-descr">Hình minh họa</div>
+                </div></a></li>
+          </ul>
+        </div>
+      </section>
+        <section class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Want to see more works?</h3>
+                  <p>We are always open to interesting projects.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="index_shop.html">Lets view products</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Dịch vụ của chúng tôi</h2>
+                <div class="module-subtitle font-serif">Một sự thanh thản tuyệt vời đã chiếm hữu toàn bộ tâm hồn tôi, như những buổi sáng mùa xuân ngọt ngào mà tôi tận hưởng bằng cả trái tim mình.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-lightbulb"></span></div>
+                  <h3 class="features-title font-alt">Ý tưởng và khái niệm</h3>
+                  <p>Shop thời trang VBN có các nhà thiết kế nổi tiếng, luôn thiết kế những mẫu sản phẩm mới.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-bike"></span></div>
+                  <h3 class="features-title font-alt">Tối ưu hóa và tốc độ</h3>
+                  <p>Chúng tối làm việc hết sức nhanh chóng để khiến khách hàng hài long nhất có thể.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-tools"></span></div>
+                  <h3 class="features-title font-alt">Phong cách &amp; Thời trang</h3>
+                  <p>Sản phẩm của chúng tôi luôn có những mẫu thời trang đón đầu xu hướng, đủ tất cả các style.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-lifesaver"></span></div>
+                  <h3 class="features-title font-alt">Hỗ trợ tận tâm</h3>
+                  <p>Khách hàng là thượng đế. Mọi yêu cầu sẽ được chúng tôi giải quyết nhanh - gọn.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="divider-w">
+        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="assets/images/bg_aboutme1.jpg">
+          <div class="testimonials-slider pt-140 pb-140">
+            <ul class="slides">
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Vũ Bảo Ngọc</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Vũ Bảo Ngọc</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Vũ Bảo Ngọc</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="module" id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest blog posts</h2>
+                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">Our trip to the Alps</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="#">Mark Stone</a>&nbsp;| 23 November | 3 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Subscribe now</h3>
+                  <p>Chúng tôi sẽ bảo mật thông tin của bạn</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="callout-btn-box">
+                  <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
+                    <div class="input-group">
+                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
+                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
+                    </div>
+                  </form>
+                  <div class="text-center" id="subscription-response"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="module" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Liên lạc với chúng tôi</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                  </div>
+                </form>
+                <div class="ajax-response font-alt" id="contactFormResponse"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">About VBNshop</h5>
+                  <p>Ý thức về phong cách. Thêm yêu vẻ đẹp chính mình.</p>
+                  <p>Phone: +1 234 567 89 10</p>Fax: +1 234 567 89 10
+                  <p>Email:<a href="#">vbngoc211201@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Recent Comments</h5>
+                  <ul class="icon-list">
+                    <li>Sơn Tùng-MTP <a href="#">Phong cách độc và lạ</a></li>
+                    <li>Justin Bieber <a href="#">Quần áo của shop rất đẹpp</a></li>
+                    <li>TL.Swift <a href="#">Rất uy tín</a></li>
+                    <li>T.N.Phúc <a href="#">Giày chất lượng</a></li>
+                    <li>V.Đ.Nguyên <a href="#">Shop uy tín.</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Bài viết phổ biến</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/post-6.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">Những style đẹp -  độc - lạ</a></div>
+                        <div class="widget-posts-meta">23 january</div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/post-1.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">Thời trang 2021</a></div>
+                        <div class="widget-posts-meta">15 February</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">&copy; 2021&nbsp;<a href="index.html">VBNshop</a>, Fashion</p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
